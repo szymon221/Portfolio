@@ -16,13 +16,13 @@ This project was created for my final year dissertation submission. The
 main aim of this project was to prove that it is possible to extract data
 from a game server such as Counter-Strike:Global Offensive, and apply some
 analysis in a real time manner.
-##Extracting the data
+## Extracting the data
 This project spanned a number of programming and scripting languages. 
 Starting off in [Sourcepawn](https://wiki.alliedmods.net/Introduction_to_SourcePawn_1.7) a plugin was written to hook into a few game events 
 and send over an encoded packet to the processing server. This took a rather
 significant portion of development time as the API isn't well documented and a 
 lot of trial and error was needed to get things off the ground.
-##Processing the data
+## Processing the data
 A server was written in C# to accept an incoming TCP/IP connection from
 the plugin. Each packet would contain a 4 byte header followed by a body
 size. This allowed for the easy ingestion for a incoming packet.
