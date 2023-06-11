@@ -124,7 +124,7 @@ installer wizard was actually implemented. So I dove down the rabbit hole of
 creating an msi installer for the application. It took a bit of work due to the
 Wix documentation being dreadful but I managed to create fully functional wizard.
 
-#Overview
+# Overview
 As you can see I have experience in a wide range of technologies and I have programmed
 in the following languages:
 1. C#
