@@ -1,4 +1,4 @@
-#How to use this repository
+# How to use this repository
 
 This repository will projects that I have worked on over the past 
 few years. It will mostly consist of scripting languages as those
@@ -33,7 +33,7 @@ implement a IPacket interface which would allow it to run functions on the game
 object. This implementation allowed for all packet types to be able to
 manipulate the game object.
 
-##Handling clients
+## Handling clients
 Once the data has been collected the analyser thread would prepare a message
 to be dispatched any webclients connected to it. To achieve this a dispatcher
 pattern was used. The dispatcher object would have access to all the current
@@ -41,7 +41,7 @@ web sessions and would duplicate the outgoing message to each clients output buf
 Each client thread would read from its buffer and send the message to the
 connected websocket.
 
-##[Web client](/GoVision/GoVisionWeb/)
+## [Web client](/GoVision/GoVisionWeb/)
 Vanilla JS was used for all the rendering. The browser would attempt to connect
 to the processing server via a websocket and once it has connected it would
 listen to incoming messages. The messages were encoded in json this was purely 
@@ -66,20 +66,20 @@ was panning there was a chance that it would cross the -180/180 boundary axis.
 The code would check if that edge case occurred and would apply an offset to all
 the values mitigating this from happening.
 
-##Tooling
+## Tooling
 Some tools were written for this project. The main one that saved a lot of time
 was the [run.ps1](/GoVision/tools/run.ps1) and [argsgen.py](/GoVision/tools/argsgen/main.py) as it allowed for the automatic generation 
 of parameters for the game server executable. It would also copy over configuration 
 files to the game server directory allowing for the easy management 
 of testing environments.  
 
-#[Networking project](/Networking/)
+# [Networking project](/Networking/)
 For this project I was tasked with creating a client and server to implement
 the [whois](https://www.rfc-editor.org/rfc/rfc3912.txt) protocol. The server would manage accept incoming requests either in the basic request , http 1.0 and http 1.1 syntax and be able to provide the location of a 
 resource or create/update the location of a resource. The client would be able to
 send these requests with the option of using all three protocols.
 
-#[BLM scraper](/blmscraper/)
+# [BLM scraper](/blmscraper/)
 I'll be honest this one is a bit weird one. I somehow stumbled upon [this](https://www.blm.gov/or/landrecords/survey/ySrvy1.php) website. 
 It allows you to query the land deed records of plots of land in the 
 washington and oregon are of the united states. I noticed that you can extract 
@@ -102,7 +102,7 @@ For example I needed some profile pictures for around 30 steam profiles. Instead
 manually downloading and naming them all I was able to repurpose older code 
 to do this task automatically for me.
 
-#Linux vm script
+# Linux vm script
 I typically run VM's on my machine when I need to test/develop in linux 
 environment. However using the GUI to launch my vms was rathe cumbersome 
 so I wrote a 2 powershell scripts that had the ability to list all registered
@@ -112,7 +112,7 @@ These two scripts have probably saved me hours since I first started using them
 2-3 years ago.
 ![vm script](/img/Powershell.png)
 
-#Worst audio level changer
+# Worst audio level changer
 This project started off as a joke. It was created during a trend where people
 competed on making applications with the worst user interfaces they could come
 up with. It also allowed me to experiment with the creation of a microsoft system service. The design was simple. The service would create a task bar icon which
