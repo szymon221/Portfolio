@@ -1,20 +1,17 @@
 #How to use this repository
 
 This repository will projects that I have worked on over the past 
-few years. It will mostly consist of scritping languages as those
+few years. It will mostly consist of scripting languages as those
 sort of languages were the best tools for the jobs.
-
-Each section will have a link to the project that is being discussed
-and will contian breif description of the goals and aims of said project.
 
 Most of the projects I have worked on stem from the curiosity of downloading
 data from external sources or small utility programs that I have worked on with
 the goal of making my life easier.
 
-The final seciton of this document will go over some technologies that I have
+The final section of this document will go over some technologies that I have
 become familiar over the years. 
 
-#[Govison](../GoVision)
+# [Govison](/GoVision)
 This project was created for my final year dissertation submission. The
 main aim of this project was to prove that it is possible to extract data
 from a game server such as Counter-Strike:Global Offensive, and apply some
@@ -44,7 +41,7 @@ web sessions and would duplicate the outgoing message to each clients output buf
 Each client thread would read from its buffer and send the message to the
 connected websocket.
 
-##[Web client](../GoVision/GoVisionWeb/)
+##[Web client](/GoVision/GoVisionWeb/)
 Vanilla JS was used for all the rendering. The browser would attempt to connect
 to the processing server via a websocket and once it has connected it would
 listen to incoming messages. The messages were encoded in json this was purely 
@@ -71,18 +68,18 @@ the values mitigating this from happening.
 
 ##Tooling
 Some tools were written for this project. The main one that saved a lot of time
-was the [run.ps1](../GoVision/tools/run.ps1) and [argsgen.py](../GoVision/tools/argsgen/main.py) as it allowed for the automatic generation 
+was the [run.ps1](/GoVision/tools/run.ps1) and [argsgen.py](/GoVision/tools/argsgen/main.py) as it allowed for the automatic generation 
 of parameters for the game server executable. It would also copy over configuration 
 files to the game server directory allowing for the easy management 
 of testing environments.  
 
-#[Networking project](../Networking/)
+#[Networking project](/Networking/)
 For this project I was tasked with creating a client and server to implement
 the [whois](https://www.rfc-editor.org/rfc/rfc3912.txt) protocol. The server would manage accept incoming requests either in the basic request , http 1.0 and http 1.1 syntax and be able to provide the location of a 
 resource or create/update the location of a resource. The client would be able to
 send these requests with the option of using all three protocols.
 
-#[BLM scraper](../blmscraper/)
+#[BLM scraper](/blmscraper/)
 I'll be honest this one is a bit weird one. I somehow stumbled upon [this](https://www.blm.gov/or/landrecords/survey/ySrvy1.php) website. 
 It allows you to query the land deed records of plots of land in the 
 washington and oregon are of the united states. I noticed that you can extract 
@@ -111,11 +108,33 @@ environment. However using the GUI to launch my vms was rathe cumbersome
 so I wrote a 2 powershell scripts that had the ability to list all registered
 VM's on my machine (with fancy colouring) and to be able to start the VM's.
 
-![vm script](../img/Powershell.png)
+These two scripts have probably saved me hours since I first started using them
+2-3 years ago.
+![vm script](/img/Powershell.png)
+
 #Worst audio level changer
+This project started off as a joke. It was created during a trend where people
+competed on making applications with the worst user interfaces they could come
+up with. It also allowed me to experiment with the creation of a microsoft system service. The design was simple. The service would create a task bar icon which
+allowed the user to right-click on to change their volume up/down by a single
+percent.
 
-#Various powershell scripts
+Once the project was almost completed I realised that I never though about how an
+installer wizard was actually implemented. So I dove down the rabbit hole of
+creating an msi installer for the application. It took a bit of work due to the
+Wix documentation being dreadful but I managed to create fully functional wizard.
 
-#Student app
-
-#Knowlege overview
+#Overview
+As you can see I have experience in a wide range of technologies and I have programmed
+in the following languages:
+1. C#
+2. C++
+3. JS
+4. python
+5. Powershell
+6. shell
+7. SQL
+With the strongest language by far being C#.
+I have a strong background in linux as I have managed my own servers for 7+ years.
+I am very familiar with most GNU tools and use the CLI extensively in my 
+day to day work.
