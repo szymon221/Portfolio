@@ -1,0 +1,7 @@
+State               Township            Range               Filename            Document Type       Current Date        File Size           
+OR                  010n                030w                010n030whwd.pdf     HISTORICAL INDEX    2007-05-24 00:00:00  89,950             
+OR                  010n                030w                010n030ws01.jpg     SUPPL PLAT          1996-04-16 00:00:00 954,503             
+OR                  010n                030w                010n030wu01.jpg     MT/USE PLAT         1996-04-16 00:00:00 1,457,264           
+OR                  010n                030w                t010n030w_001.jpg   CADASTRAL SURVEY    N/A                 16580242            
+OR                  010n                030w                t010n030w_002.jpg   CADASTRAL SURVEY    N/A                 19146985            
+OR                  010n                030w                t010n030w_003.jpg   CADASTRAL SURVEY    N/A                 913837              

@@ -1,0 +1,14 @@
+# Competitive Mirage bot 5v5 with GoTV enabled
+
+EnableLog ; True
+UseEnvKeys ; True
+Map ; "468311689"
+Collection ; "2897084744"
+Tick ; 64
+GameType ; "Custom"
+
+#Maybe write these into the script
+Arguments ; "-game csgo -console -ip 0.0.0.0 -port 27016 -tickrate 128 -processing localhost +exec server.cfg" 
+
+Files:
+"server.cfg" ; "C:\Users\szyme\repos\GoVision\dedicatedServer\csgo\cfg\server.cfg"

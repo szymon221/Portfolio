@@ -1,0 +1,15 @@
+# Competitive Mirage bot 5v5 with GoTV enabled
+
+EnableLog : True
+UseEnvKeys : True
+Map : "de_mirage"
+Tick : 64
+GameType : "Competitive"
+ExecutableLocation : "~/ds/srcds_run"
+
+#Maybe write these into the script
+Arguments : "-game csgo -ip 0.0.0.0 -processing 192.168.1.13 +exec server.cfg" 
+
+Files:
+"server.cfg" : "/home/szy/ds/csgo/cfg/server.cfg"
+"gamemode_competitive.cfg" : "/home/szy/ds/csgo/cfg/gamemode_competitive.cfg"

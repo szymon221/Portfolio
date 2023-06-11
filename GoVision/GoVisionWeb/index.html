@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Go Vision</title>
+    <script src="/src/players.js"></script>
+    <script src="/src/main.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="stylesheet" href="/default.css">
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .labels-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .label {
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+        background-color: red;
+        padding: 5px 10px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <canvas id="MiniMap" width="600" height="600"></canvas>
+
+	<div class="labels-container">
+		<label id="rawValues" class="label">Label 1</label>
+		<label id="percentage" class="label">Label 1</label>
+	</div>
+
+    <script>
+      CanvasLoad();
+    </script>
+  </body>
+</html>

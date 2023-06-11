@@ -1,0 +1,11 @@
+State               Township            Range               Filename            Document Type       Current Date        File Size           
+OR                  010n                040e                010n040ehwd.pdf     HISTORICAL INDEX    2022-08-17 00:00:00 377,037             
+OR                  010n                040e                010n040em01.pdf     MT PLAT             2006-08-04 00:00:00 106,417             
+OR                  010N                040E                EXT_040_D.jpg       EXTERIOR PLATS      N/A                 1687726             
+OR                  010n                040e                t010n040e_001.jpg   CADASTRAL SURVEY    N/A                 10186377            
+OR                  010n                040e                t010n040e_002.jpg   CADASTRAL SURVEY    N/A                 7535009             
+OR                  010n                040e                t010n040e_003.jpg   CADASTRAL SURVEY    N/A                 9902475             
+WA                  010n                040e                010n040ehwd.pdf     HISTORICAL INDEX    2019-07-12 00:00:00 525,504             
+WA                  010n                040e                010n040em01.pdf     MT PLAT             2022-09-22 00:00:00 393,853             
+WA                  010n                040e                t010n040e_001.jpg   CADASTRAL SURVEY    N/A                 9877756             
+WA                  010n                040e                t010n040e_002.jpg   CADASTRAL SURVEY    N/A                 10340662            
